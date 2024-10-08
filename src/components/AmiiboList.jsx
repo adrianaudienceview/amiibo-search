@@ -5,7 +5,7 @@ const AmiiboList = ({ amiiboList }) => {
   return (
     <ul>
       {amiiboList.map((amiibo, index) => (
-        <AmiiboCard key={index} amiibo={amiibo} />
+        <AmiiboCard key={`${amiibo.head}-${amiibo.tail}`} amiibo={amiibo} />
       ))}
     </ul>
   );
