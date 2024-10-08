@@ -1,5 +1,3 @@
-/* Estilos globales */
-/* Estilos globales */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -19,23 +17,9 @@ body {
   width: 100%;
 }
 
-.amiibo-card {
-  display: flex; /* Hacemos flex para alinear elementos */
-  justify-content: space-between; /* Espacio entre texto y la imagen */
-  align-items: center; /* Centrar verticalmente los elementos */
-  border: 1px solid #ccc; /* Borde alrededor de la tarjeta */
-  border-radius: 5px; /* Bordes redondeados */
-  padding: 10px; /* Espacio interno */
-  margin-bottom: 10px; /* Espacio entre las tarjetas */
-}
-
-.amiibo-info {
-  flex: 1; /* Permitir que el contenedor de texto ocupe el espacio disponible */
-}
-
 .amiibo-image {
-  max-width: 100px; /* Ancho máximo de la imagen */
-  height: auto; /* Mantener la proporción de la imagen */
+  max-width: 100px; 
+  height: auto; 
 }
 
 /* Mantener el encabezado y el campo de búsqueda fijos en la parte superior */
@@ -50,7 +34,6 @@ body {
   z-index: 10;
 }
 
-/* Encabezado centrado */
 h1 {
   text-align: center;
   color: #333;
@@ -60,14 +43,14 @@ h1 {
 /* Estilos para el input de búsqueda y botón */
 input {
   padding: 10px;
-  width: 300px; /* Tamaño del campo de búsqueda */
+  width: 300px; 
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
 }
 
 button {
-  margin-left: 10px; /* Añade margen izquierdo al botón */
+  margin-left: 10px; 
   padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
@@ -92,9 +75,9 @@ ul {
   overflow-y: auto;
 }
 
-/* Asegurarse de que la lista pueda desplazarse si es extensa */
+/* Asegurarse de que la lista pueda desplazarse */
 ul {
-  max-height: 70vh; /* Ajusta el tamaño máximo visible de la lista */
+  max-height: 70vh;
   overflow-y: auto;
 }
 
@@ -107,7 +90,6 @@ li {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Texto dentro de los items */
 li p {
   margin: 5px 0;
   color: #333;

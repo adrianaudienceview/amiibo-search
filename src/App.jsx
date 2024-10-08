@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Usa App.css en lugar de AmiiboSearch.css para consistencia
+import './App.css';
 
 const AmiiboSearch = () => {
   const [amiiboName, setAmiiboName] = useState('');
@@ -50,9 +50,7 @@ const AmiiboSearch = () => {
               <p><strong>Series:</strong> {amiibo.amiiboSeries}</p>
               <p><strong>Type:</strong> {amiibo.type}</p>
             </div>
-            {amiibo.image && (
               <img className="amiibo-image" src={amiibo.image} alt={amiibo.name} />
-            )}
           </li>
         ))}
       </ul>
